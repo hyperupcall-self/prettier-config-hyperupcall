@@ -2,8 +2,10 @@
 	"name": "@hyperupcall/prettier-config",
 	"version": "0.3.0",
 	"description": "Edwin's Prettier config",
-	"main": "prettier.config.cjs",
-	"module": "prettier.config.mjs",
+	"exports": {
+		"require": "./prettier.config.cjs",
+		"import": "./prettier.config.mjs"
+	},
 	"repository": "https://github.com/fox-land/prettier-config",
 	"author": "Edwin Kofler <edwin@kofler.dev>",
 	"license": "MPL-2.0"
