@@ -1,4 +1,5 @@
 module.exports = {
+	plugins: ['prettier-plugin-pkg'],
 	printWidth: 90,
 	useTabs: true,
 	semi: false,
