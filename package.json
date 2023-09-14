@@ -1,6 +1,6 @@
 {
 	"name": "@hyperupcall/prettier-config",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"description": "Edwin's Prettier config",
 	"repository": "https://github.com/fox-land/prettier-config",
 	"author": "Edwin Kofler <edwin@kofler.dev>",
