@@ -2,11 +2,14 @@
 	"name": "@hyperupcall/prettier-config",
 	"version": "0.6.0",
 	"description": "Edwin's Prettier config",
+	"repository": "https://github.com/fox-land/prettier-config",
+	"author": "Edwin Kofler <edwin@kofler.dev>",
+	"license": "MPL-2.0",
 	"exports": {
 		"require": "./prettier.config.cjs",
 		"import": "./prettier.config.mjs"
 	},
-	"repository": "https://github.com/fox-land/prettier-config",
-	"author": "Edwin Kofler <edwin@kofler.dev>",
-	"license": "MPL-2.0"
+	"devDependencies": {
+		"prettier-plugin-pkg": "^0.18.0"
+	}
 }
