@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    'prettier:fix':
+      glob: '*.{html,css,less,scss,sass,js,ts,jsx,tsx,vue,json,yaml,yml,md,mdx}'
+      run: './bake prettier:fix {staged_files}'
+      stage_fixed: true
