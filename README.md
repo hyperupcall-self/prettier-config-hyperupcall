@@ -1,4 +1,4 @@
-# prettier-config
+# prettier-config-hyperupcall
 
 Edwin's [Prettier](https://prettier.io) configuration.
 
