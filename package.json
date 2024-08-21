@@ -8,14 +8,12 @@
 	},
 	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com)",
 	"license": "MPL-2.0",
-	"exports": {
-		"require": "./prettier.config.cjs",
-		"import": "./prettier.config.mjs"
-	},
-	"devDependencies": {
-		"prettier-plugin-pkg": "^0.18.0"
-	},
+	"type": "module",
+	"main": "./prettier.config.js",
 	"bugs": {
 		"url": "https://github.com/fox-land/prettier-config-hyperupcall/issues"
+	},
+	"dependencies": {
+		"@hyperupcall/config-utils": "^0.1.0"
 	}
 }
