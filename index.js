@@ -1,6 +1,5 @@
 import { createRequire } from 'node:module'
-import { findUp, skipArrayMergeDeep } from '@hyperupcall/config-utils'
-
+import { findUpSync, skipArrayMergeDeep } from '@hyperupcall/config-utils'
 const require = createRequire(import.meta.url)
 
 let config = {
@@ -15,10 +14,10 @@ let config = {
 	endOfLine: 'lf', // Default changed from "auto" to "lf" in v2.0.0.
 }
 
-const hyperupcallFile = await findUp('.hyperupcall.js')
+const hyperupcallFile = findUpSync('.hyperupcall.js')
 if (hyperupcallFile) {
-	const module = await import(hyperupcallFile)
-	config = module.prettierOverride?.(config, skipArrayMergeDeep)
+	const module = require(hyperupcallFile)
+	config = module.prettierOverride?.(config, skipArrayMergeDeep) ?? config
 }
 
 export default config
