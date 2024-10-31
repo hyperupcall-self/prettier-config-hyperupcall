@@ -1,13 +1,15 @@
 {
 	"name": "@hyperupcall/prettier-config",
-	"version": "0.9.0",
+	"version": "0.9.1",
 	"type": "module",
 	"description": "Edwin's Prettier configuration.",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/fox-land/prettier-config-hyperupcall.git"
 	},
-	"files": ["output"],
+	"files": [
+		"output"
+	],
 	"types": "./output/index.d.ts",
 	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com)",
 	"license": "MPL-2.0",
