@@ -7,6 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/fox-land/prettier-config-hyperupcall.git"
 	},
+	"files": ["output"],
 	"types": "./output/index.d.ts",
 	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com)",
 	"license": "MPL-2.0",
